@@ -1,0 +1,15 @@
+language: node_js
+os:
+  - linux
+  - osx
+  - windows
+node_js:
+  - "12"
+  - "11"
+  - "10"
+  - "9"
+  - "8"
+script:
+  - npm run test:cheat
+after_script:
+  - npm run coveralls

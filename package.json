@@ -1,0 +1,25 @@
+{
+    "name": "cheat-code-coverage",
+    "version": "1.0.0",
+    "description": "",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "test": "echo please choose typical or cheat form",
+        "test:typical": "jasmine test/unit/typical.test.js",
+        "test:cheat": "jasmine test/unit/cheating.test.js",
+        "coverage:typical": "nyc npm run test:typical && nyc report --reporter=html",
+        "coverage:cheat": "nyc npm run test:cheat && nyc report --reporter=html",
+        "coveralls": "nyc npm run test:typical && nyc report --reporter=text-lcov | coveralls -v"
+    },
+    "devDependencies": {
+        "@types/node": "^12.0.2",
+        "coveralls": "^3.0.3",
+        "jasmine": "^3.4.0",
+        "nyc": "^14.1.1"
+    }
+}
