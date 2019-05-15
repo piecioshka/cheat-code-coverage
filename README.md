@@ -25,7 +25,7 @@ Choose strategy:
     npm run coverage:cheat
     ```
 
-Result is the same in both strategies.
+Result **is the same** in both strategies :warning:
 
 ## License
 

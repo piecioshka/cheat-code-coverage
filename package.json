@@ -1,7 +1,7 @@
 {
     "name": "cheat-code-coverage",
     "version": "1.0.0",
-    "description": "",
+    "description": "How to cheat code coverage calculations?",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
@@ -9,12 +9,12 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
-        "test": "echo please choose typical or cheat form",
+        "test": "npm run test:cheat",
         "test:typical": "jasmine test/unit/typical.test.js",
         "test:cheat": "jasmine test/unit/cheating.test.js",
         "coverage:typical": "nyc npm run test:typical && nyc report --reporter=html",
         "coverage:cheat": "nyc npm run test:cheat && nyc report --reporter=html",
-        "coveralls": "nyc npm run test:typical && nyc report --reporter=text-lcov | coveralls -v"
+        "coveralls": "nyc npm run test:cheat && nyc report --reporter=text-lcov | coveralls -v"
     },
     "devDependencies": {
         "@types/node": "^12.0.2",
