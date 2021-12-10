@@ -1,3 +1,4 @@
+require('jasmine');
 require('../helpers/disable-console')();
 
 const { Ferrari, Jelcz } = require('../../src');
@@ -10,9 +11,9 @@ describe('Ferrari', () => {
 
     it('should print engine signal', () => {
         const o = new Ferrari();
-        const mySpy = spyOn(global.console, 'log');
+        const display = spyOn(console, 'log');
         o.drive();
-        expect(mySpy).toHaveBeenCalledWith('wruuu');
+        expect(display).toHaveBeenCalledWith('wruuu');
     });
 });
 
@@ -24,9 +25,9 @@ describe('Jelcz', () => {
 
     it('should print engine signal', () => {
         const o = new Jelcz();
-        const mySpy = spyOn(global.console, 'log');
+        const display = spyOn(console, 'log');
         o.drive();
-        expect(mySpy).toHaveBeenCalledWith('grrr');
+        expect(display).toHaveBeenCalledWith('grrr');
     });
 });
 
