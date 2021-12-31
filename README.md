@@ -1,6 +1,6 @@
 # cheat-code-coverage
 
-[![travis](https://img.shields.io/travis/piecioshka/cheat-code-coverage.svg)](https://travis-ci.org/piecioshka/cheat-code-coverage)
+[![travis-ci](https://api.travis-ci.com/piecioshka/cheat-code-coverage.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/cheat-code-coverage)
 [![coveralls](https://coveralls.io/repos/github/piecioshka/cheat-code-coverage/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/cheat-code-coverage?branch=master)
 [![snyk](https://snyk.io/test/github/piecioshka/cheat-code-coverage/badge.svg?targetFile=package.json)](https://snyk.io/test/github/piecioshka/cheat-code-coverage?targetFile=package.json)
 
