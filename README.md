@@ -1,6 +1,5 @@
 # cheat-code-coverage
 
-[![dependencies](https://david-dm.org/piecioshka/cheat-code-coverage.svg)](https://github.com/piecioshka/cheat-code-coverage)
 [![travis](https://img.shields.io/travis/piecioshka/cheat-code-coverage.svg)](https://travis-ci.org/piecioshka/cheat-code-coverage)
 [![coveralls](https://coveralls.io/repos/github/piecioshka/cheat-code-coverage/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/cheat-code-coverage?branch=master)
 [![snyk](https://snyk.io/test/github/piecioshka/cheat-code-coverage/badge.svg?targetFile=package.json)](https://snyk.io/test/github/piecioshka/cheat-code-coverage?targetFile=package.json)
