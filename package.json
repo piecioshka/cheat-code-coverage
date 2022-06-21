@@ -13,13 +13,11 @@
         "test:typical": "jasmine test/unit/typical.test.js",
         "test:cheat": "jasmine test/unit/cheating.test.js",
         "coverage:typical": "nyc npm run test:typical && nyc report --reporter=html",
-        "coverage:cheat": "nyc npm run test:cheat && nyc report --reporter=html",
-        "coveralls": "nyc npm run test:cheat && nyc report --reporter=text-lcov | coveralls -v"
+        "coverage:cheat": "nyc npm run test:cheat && nyc report --reporter=html"
     },
     "devDependencies": {
         "@types/jasmine": "^3.10.2",
         "@types/node": "^16.11.11",
-        "coveralls": "^3.1.1",
         "jasmine": "^3.10.0",
         "nyc": "^15.1.0"
     }
