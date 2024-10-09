@@ -1,7 +1,5 @@
 # cheat-code-coverage
 
-[![snyk](https://snyk.io/test/github/piecioshka/cheat-code-coverage/badge.svg?targetFile=package.json)](https://snyk.io/test/github/piecioshka/cheat-code-coverage?targetFile=package.json)
-
 How to cheat code coverage calculations?
 
 ## Answer
